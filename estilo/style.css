@@ -30,6 +30,7 @@ box-shadow: 1px 1px 1px 0px black;
 
 }
 section#login > div#imagem{
+    display: block;
     background: rgb(87, 147, 143);
 background-image: url(../imagem/pexels-pixabay-207489\ \(1\).jpg);
 height: 200px;
@@ -38,5 +39,6 @@ border-radius: 5px;
 background-repeat: no-repeat;
 }
 section#login > div#formulario {
+    display: block;
     padding: 10px;
 }
