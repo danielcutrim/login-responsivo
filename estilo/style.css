@@ -6,7 +6,8 @@
 
 }
 body, html{
-background-color: rgb(87, 147, 143);
+ background-image:linear-gradient(to top, #8f9357, #81522d);
+    
 height: 100vh;
 width: 100vw;
 }
@@ -37,8 +38,5 @@ height: 200px;
 background-size: cover;
 border-radius: 5px;
 background-repeat: no-repeat;
-}
-section#login > div#formulario {
-    display: block;
-    padding: 10px;
+background-position: right center;
 }
