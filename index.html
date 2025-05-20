@@ -8,38 +8,67 @@
     <link rel="stylesheet" href="estilo/style.css">
     <link rel="stylesheet" href="estilo/Media-Query.css">
 </head>
-<body>
-    
-<main>
-    <section id="login">
-        <div id="imagem">
+,<main>
+  <header>
+    <div class="container">
+      <h1>Mafring</h1>
+      <nav>
+        <a href="#">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#destaques">Destaques</a>
+        <a href="#">Login</a>
+        <a href="#">Cadastrar</a>
+      </nav>
+    </div>
+  </header>
 
+  <section class="hero">
+    <div class="container">
+      <h2>Conecte-se com pessoas especiais</h2>
+      <p>O Mafring é a ponte entre você e novas histórias de amor.</p>
+      <a href="#" class="btn">Cadastre-se Gratuitamente</a>
+    </div>
+  </section>
+
+  <section id="sobre" class="sobre">
+    <div class="container">
+      <h2>Sobre o Mafring</h2>
+      <p>Mafring é uma plataforma de relacionamento pensada para quem busca conexões reais, sinceras e seguras. Nosso objetivo é unir pessoas com interesses em comum e transformar encontros em experiências inesquecíveis.</p>
+    </div>
+  </section>
+
+  <section id="destaques" class="destaques">
+    <div class="container">
+      <h2>Perfis em Destaque</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="https://via.placeholder.com/150" alt="Perfil 1" />
+          <h3>Ana, 28</h3>
+          <p>Amante de livros e longas conversas.</p>
         </div>
-        <div id="formulario">
-<h1>Login</h1>
-<p>Seja bem vindo (a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-<form action="login.php" method="post">
-<div class="campo">
-    
-   <input type="email" name="login" id="ilogin" placeholder="seu e-mail">
-    <label for="ilogin">login<label>
-
-</div>
-<div id="campo">
-
-<input type="password" name="Senha" id="isenha" placeholder="sua senha">
-<label for="isenha"> Senha</label>
-</div>
-<input type="submit" value="enviar">
-<input type="reset" value="limpar">
-
-</form>
+        <div class="card">
+          <img src="https://via.placeholder.com/150" alt="Perfil 2" />
+          <h3>Lucas, 31</h3>
+          <p>Gosta de trilhas e aventuras ao ar livre.</p>
         </div>
-    </section>
-</main>
+        <div class="card">
+          <img src="https://via.placeholder.com/150" alt="Perfil 3" />
+          <h3>Marina, 25</h3>
+          <p>Adora cozinhar e dançar forró.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-
-
-
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Mafring. Todos os direitos reservados.</p>
+      <div class="social">
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">Contato</a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
