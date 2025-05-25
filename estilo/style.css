@@ -27,12 +27,19 @@ section#Login{
     border-radius: 8px;
     overflow: hidden;
     box-shadow:0px 0px  10px rgba(0, 0, 0, 0.39);
+    transition: width .3s, heigth .3s;
+    transition-timing-function: ease;
 }
 section#Login > div#imagem{
+    display: block;
     background-color:#5f2c82 ;
     height: 200px;
     background-image: url(../imagem/pexels-pixabay.jpg) ;
     background-size: cover;
 background-repeat: no-repeat;
 background-position: right center;
+}
+section#Login > div#formulario {
+    display: block;
+    padding: 10px;
 }
